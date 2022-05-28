@@ -1,17 +1,18 @@
-/* *********************Media Queries********************** */
+/* for small screens sm */
+@media (min-width: 640px) { ... }
 
-/* *********************Desktop & Laptops********************** */
-@media (min-width: 1024px){
-    
-}
-/* *********************Tablets And Ipads********************** */
 
-@media(min-width:768px) and (max-width:1023px){
-  
+/* for medium screens md */
+@media (min-width: 768px) { ... }
 
-}
-/* *********************Mobile Phones********************** */
-@media (max-width: 767px){
 
-    
-}
+/* for large screens lg */
+@media (min-width: 1024px) { ... }
+
+
+/* for extra large screens xl */
+@media (min-width: 1280px) { ... }
+
+
+/* for extra extra large screens 2xl */
+@media (min-width: 1536px) { ... }
