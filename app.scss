@@ -1,0 +1,6 @@
+@for $i from 0 through 900 {
+  $jump_number: $i + 10;
+  .blue-#{$jump_number} {
+    color: hsl(245deg 100% #{$jump_number}%);
+  }
+}
